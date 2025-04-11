@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Hagenia abyssinica', 'Hass Avocado', 'Lemon  Myrtle', 'Leucaena leucophala', 'Manglifera indica', 'Podocarpus falcatus', 'Polyscias fulva', 'Salix alba', 'Syzygium gineense', 'Vitex keniensis', 'cedrus', 'other']
+
+roboflow:
+  workspace: andreas-sdfrn
+  project: tree-species-5vszi
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/andreas-sdfrn/tree-species-5vszi/dataset/6
